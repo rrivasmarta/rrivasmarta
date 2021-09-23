@@ -114,7 +114,7 @@ h5 {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background-image: url(http://marinamarques.pt/img/preloader.gif);
+	background-image: 
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: -100px 0 0 -100px;
@@ -394,6 +394,11 @@ span.city {
 	font-size: 20px;
 }
 
+.about-intro-text .fab-beer {
+	color: #40E0D0;
+	font-size: 20px;
+}
+
 .button-group {
 	cursor: pointer;
 	display: -webkit-inline-box;
@@ -432,6 +437,10 @@ span.city {
 }
 
 a .fa-arrow-circle-down {
+	color: #008080;
+}
+
+a .fab-arrow-circle-down {
 	color: #008080;
 }
 
@@ -528,6 +537,11 @@ div.button-social a:hover {
 }
 
 .stats .fa {
+	color: #008080;
+	font-size: 60px;
+}
+
+.stats .fab {
 	color: #008080;
 	font-size: 60px;
 }
@@ -849,6 +863,11 @@ div.button-weblink {
 	color: #008080;
 }
 
+#services .fab {
+	font-size: 60px;
+	color: #008080;
+}
+
 #services .rotate:hover {
 	-webkit-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
@@ -886,13 +905,7 @@ div.button-weblink {
 	text-align: center;
 }
 
-.testimionals-bg {
-	width: 100%;
-	height: auto;
-	background: url(http://marinamarques.pt/img/mm_testimionals.jpg) no-repeat top center scroll;
-	background-size: cover;
-	-o-background-size: cover;
-}
+
 
 .testimionals-bg-opacity {
     width: 100%;
@@ -964,9 +977,117 @@ footer a:visited footer a:focus {
 	font-size: 14px;
 }
 
-
 /*/ end contact /*/
 
+gith {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+gith p {
+	margin-top: 50px;
+}
+
+.social,
+gith a {
+	font-size: 30px;
+	color: #24242a;
+	margin: 10px;
+}
+
+gith a:hover,
+gith a:after,
+gith a:visited gith a:focus {
+	color: #40E0D0;
+}
+
+#project{
+  
+}
+
+.project-info h5 {
+	margin-top: 0;
+	margin-bottom: 0.333em;
+	font-size: 18px;
+	color: #40E0D0;
+	font-weight: 700;
+}
+
+#about-report {
+	margin-top: 20px;
+}
+
+#about-report h2 {
+	font-weight: 700;
+	margin-top: 22px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.button-group-report {
+	cursor: pointer;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.text-report {
+	background: #008080;
+	color: #fff;
+	font-size: 18px;
+	height: 50px;
+	padding: 0 25px;
+	line-height: 50px;
+}
+
+.icon-report {
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	line-height: 40px;
+	box-sizing: border-box;
+	border: 4px solid #008080;
+	border-left: none;
+	-webkit-transition: 600ms -webkit-transform ease-in-out;
+	transition: 600ms -webkit-transform ease-in-out;
+	transition: 600ms transform ease-in-out;
+	transition: 600ms transform ease-in-out, 600ms -webkit-transform ease-in-out;
+	-webkit-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: left;
+	transform-origin: left;
+	color: #008080;
+	background: #fff;
+	text-align: center;
+}
+
+a .fa-arrow-circle-down {
+	color: #008080;
+}
+
+a .fab-arrow-circle-down {
+	color: #008080;
+}
+
+.button-group-report:hover .icon-report {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+.button-group-report {
+	-webkit-perspective: 500px;
+	perspective: 500px;
+	-webkit-perspective-origin: calc(100% - 50px);
+	perspective-origin: calc(100% - 50px);
+	margin-top: 5%; 
+  margin-left: 40%;
+}
+
+ul.a {
+  list-style-type: circle;
+  font-size: 12px;
+}
 
 /*/ media queries /*/
 
@@ -989,3 +1110,57 @@ footer a:visited footer a:focus {
 		margin-bottom: 15%;
 	}
 }
+
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.button_lang {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 0em;
+  border-radius: 10px;
+  width: 5em;
+  transition: 0.25s ease;
+}
+
+.lang {
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.button_lang:hover {
+  background: #008080;
+  transition: 0.25s ease;
+}
+
+.current_lang {
+  background: #008080;
+}
+
+
+.current_lang {
+  background: #008080;
+}
+
+.translation {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.english {
+  font-family: "Asap", sans-serif;
+}
+
