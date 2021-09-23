@@ -136,3 +136,4 @@ var year = today.getFullYear();
 
 var copyright = document.getElementById("copyright");
 copyright.innerHTML = '© Marta R. Rivas '+ year;
+
